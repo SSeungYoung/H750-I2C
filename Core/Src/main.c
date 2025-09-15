@@ -29,6 +29,8 @@
 #include <string.h>
 #include <stdio.h>
 #include "rtc.h"
+
+#include <math.h>
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -331,3 +333,4 @@ void assert_failed(uint8_t *file, uint32_t line)
   /* USER CODE END 6 */
 }
 #endif /* USE_FULL_ASSERT */
+
